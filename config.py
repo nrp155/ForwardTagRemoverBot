@@ -21,7 +21,7 @@ load_dotenv()
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7472794797:AAGXeMzA-hnggHrXunBhJGKAsRogobHPzvA")
     SOURCE = "https://github.com/Artis7eeR/ForwardTagRemoverBot"
     START_TEXT = """
 Hi [{}](tg://user?id={}) 
